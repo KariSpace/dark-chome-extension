@@ -2,7 +2,7 @@
   "name": "Kari chrome extention",
   "version": "1.0",
   "description": "Build an Extension!",
-  "permissions": ["storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
